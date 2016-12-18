@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Ariel Debrouvier</title>
+		<meta charset="utf-8">				
+
+		<link href="css/index.css" rel="stylesheet" type="text/css">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+		<!-- Angular Material -->		
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.css">		
+	</head>
+
+	<body ng-app="mainApp">
+
+		<div ng-controller="MainController">
+			<h1>Ariel Debrouvier</h1>
+
+			<h2>root@localhost $> _</h2>	
+			
+			<section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+
+	      		<md-button class="md-icon-button" aria-label="Email">
+	  				<md-tooltip class="email-tooltip" md-direction="left">
+	    				ariel.debrouvier@gmail.com
+	  				</md-tooltip>
+	  				<md-icon id="mail-icon">email</md-icon>
+				</md-button>	
+
+				<a ng-href="https://github.com/adebrouvier">
+					<img title="Github Profile" ng-src="rsc/GitHub-Mark-32px.png" alt="Github logo"/>
+				</a>
+
+    		</section>
+
+		</div>
+
+
+		<!-- Angular.js Libraries -->		
+		<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+	  	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+	
+		<!-- Angular Material Libraries -->	
+	  	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.min.js"></script>
+		
+		<script src="js/MainController.js"></script>
+
+
+	</body>	
+
+</html>
