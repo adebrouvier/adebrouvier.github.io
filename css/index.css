@@ -19,7 +19,28 @@ body{
   transform: none;
   -webkit-transform: none; }
 
-#mail-icon{
-	color:black;
+.social-links {
+  display: flex;
+  justify-content: center;
 }
 
+.link {
+  color: black;
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.link:hover {
+  color: rgb(76, 71, 71);
+  transition-duration: 300ms;
+}
+
+.blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
