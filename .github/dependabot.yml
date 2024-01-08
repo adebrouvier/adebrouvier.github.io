@@ -7,4 +7,4 @@ updates:
     groups:
       actions-dep:
         patterns:
-          - "@actions/*"
+          - "actions/*"
