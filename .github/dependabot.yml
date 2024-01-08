@@ -5,5 +5,5 @@ updates:
     schedule:
       interval: "monthly"
     groups:
-      actions:
+      actions-dep:
       - patterns: "@actions/*"
