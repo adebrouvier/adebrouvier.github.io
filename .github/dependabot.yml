@@ -6,4 +6,4 @@ updates:
       interval: "monthly"
     groups:
       actions-dep:
-      - patterns: "@actions/*"
+        - patterns: "@actions/*"
